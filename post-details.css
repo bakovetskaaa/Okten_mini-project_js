@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3E1E1;
+    border-radius: 2%;
+}
+
+.divv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #594545;
+}
+
+.wrapper{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 20px;
+    margin-top: 50px;
+    background-color: #F1D1D1;
+    border-radius: 2%;
+    color: #594545;
+
+
+}

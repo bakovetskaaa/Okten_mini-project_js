@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.body{
+    background: #FAF2F2;
+
+ }
+
+
+
+
+
+

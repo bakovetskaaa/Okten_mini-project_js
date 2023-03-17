@@ -1,0 +1,39 @@
+.header{
+    text-align: center;
+}
+
+
+.wrapper{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 20px;
+    background-color: #F3E1E1;
+    height: 750px;
+    font-size: x-large;
+    border-radius: 2%;
+}
+
+
+.div{
+    text-align: center;
+    background-color: #F1D1D1;
+    padding-top: 5px;
+    color: #594545;
+    border-radius: 7%;
+    border: 1px solid black;
+}
+.div a {
+    display: block;
+    margin-top: 10px;
+    color: #C1A3A3;
+    border-radius: 10%;
+    background-color: #F1D1D1;
+
+}
+
+:hover > a{
+    color: #DE5B7B;
+}
+
+
+
